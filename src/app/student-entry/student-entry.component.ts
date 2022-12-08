@@ -7,30 +7,26 @@ import { Component } from '@angular/core';
 })
 export class StudentEntryComponent {
 
-  Name=""
-  rollNo=""
-  adminNo=""
-  mobileNo=""
-  collegeName=""
-  parentName=""
-  parentPhno=""
-  username=""
-  password=""
+  name=""
+  rollno=""
+  admno=""
+  //mobileNo=""
+  college=""
+  // parentName=""
+  // parentPhno=""
+  // username=""
+  // password=""
 
   readValues=() =>
   {
 
     let data:any=
     {
-      "Name":this.Name,
-      "rollNo":this.rollNo,
-      "adminNo":this.adminNo,
-      "mobileNo":this.mobileNo,
-      "collegeName":this.collegeName,
-      "parentName":this.parentName,
-      "parentPhno":this.parentPhno,
-      "username":this.username,
-      "password":this.password
+      "name":this.name,
+      "rollno":this.rollno,
+      "admno":this.admno,
+      "college":this.college,
+      
     }
 
      console.log(data)
